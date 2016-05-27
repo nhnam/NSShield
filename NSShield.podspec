@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSShield"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "We can use it to protect project from generic error. Feel free to contribute"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  "A short description of NSShield. We can use it to protect project from generic error. Feel free to contribute. This is a bundle of classes."
+  "We can use it to protect project from generic error. Feel free to contribute"
                    DESC
 
   s.homepage     = "https://github.com/nhnam/NSShield"
