@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSShield"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "We can use it to protect project from generic error. Feel free to contribute"
 
   # This description is used to generate tags and improve search results.
@@ -93,8 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
