@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSShield"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "We can use it to protect project from generic error. Feel free to contribute"
 
   # This description is used to generate tags and improve search results.
