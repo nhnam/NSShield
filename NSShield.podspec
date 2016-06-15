@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NSShield"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "We can use it to protect project from generic error. Feel free to contribute"
   s.description  = <<-DESC
   					"We can use it to protect project from generic error. Feel free to contribute"
@@ -23,6 +23,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/nhnam/NSShield.git", :tag => "#{s.version}" }
+
+
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
+  s.public_header_files = "Classes/**/*.h", "./*.h"
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
