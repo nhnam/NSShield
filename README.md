@@ -8,7 +8,7 @@
 - <..continue>
 
 ## Install
-- pod 'NSShield', '~> 0.0.8'
+- pod 'NSShield', '~> 0.0.9'
 
 ## Usage
 Automatically applied.
