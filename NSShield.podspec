@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NSShield"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "We can use it to protect project from generic error. Feel free to contribute"
   s.description  = <<-DESC
   					"We can use it to protect project from generic error. Feel free to contribute"
